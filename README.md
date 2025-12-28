@@ -55,41 +55,23 @@ The system will:
 
 ## **🧱 Project Architecture**
 
-{content: 
+```text
 rag-policy-qa/
-
 │
-
 ├── src/
+│   ├── data_loader.py     # Loads PDFs & text files with metadata
+│   ├── embedding.py       # Chunking & embedding pipeline
+│   ├── vectorstore.py     # ChromaDB + cross-encoder reranking
+│   ├── search.py          # RAG orchestration (retrieve → prompt → LLM)
+│   ├── prompt.py          # Strict JSON-based RAG prompt template
+│   ├── utils.py           # Context building & evaluation helpers
+├── pdf_data/              # Policy PDFs (tracked intentionally)
+├── text_data/             # Text-based policy documents
+├── rag.py                 # Main entry point
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
 
-│ ├── data_loader.py # Loads PDFs & text files with metadata
-
-│ ├── embedding.py # Chunking & embedding pipeline
-
-│ ├── vectorstore.py # ChromaDB + cross-encoder reranking
-
-│ ├── search.py # RAG orchestration (retrieve → prompt → LLM)
-
-│ ├── prompt.py # Strict JSON-based RAG prompt template
-
-│ ├── utils.py # Context building & evaluation helpers
-
-│
-
-├── pdf_data/ # Policy PDFs (tracked intentionally)
-
-├── data/ # Text-based policy documents
-
-│
-
-├── rag.py # Main entry point
-
-├── requirements.txt # Python dependencies
-
-├── README.md # Project documentation
-
-└── .gitignore
-}
+```
 
 ## **🔍 Retrieval & Answer Flow**
 
