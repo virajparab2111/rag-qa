@@ -1,0 +1,59 @@
+RAG Evaluation Output
+================================================================================
+Run time: 2025-12-28 16:40:22.008657
+
+--------------------------------------------------------------------------------
+Question: What happens if a train is cancelled by the railways?
+Expected: Answerable
+Answer JSON:
+[
+    {
+      "point": "If a railway administration cancels any of its trains, no refund charge will be levied and full fare shall be granted as per Railway Refund Rules.",
+      "sources": ["REFUND RULES wef 12-Nov-15.pdf", "CancellationRulesforIRCTCTrain_0"]
+    }
+  ]
+
+--------------------------------------------------------------------------------
+Question: What is the clerkage charge for RAC or waitlisted ticket cancellation?
+Expected: Answerable
+Answer JSON:
+```json
+{
+  "answer": [
+    {
+      "point": "Clerkage Charge:- The refund of fare shall be made after deducting the clerkage if a RAC or wait -listed ticket is cancelled online upto thirty minutes before the scheduled departure of the train.",
+      "sources": ["REFUND RULES wef 12-Nov-15.pdf", "DOCUMENT ID: REFUND RULES wef 12-Nov-15_3"]
+    }
+  ],
+  "confidence": 0.98
+}
+```
+
+--------------------------------------------------------------------------------
+Question: What happens if AC facility is not provided during the journey?
+Expected: Partially Answerable
+Answer JSON:
+```json
+{
+  "answer": [
+    {
+      "point": "If air-conditioning (AC) facilities could not be provided for a portion of the journey, refund on tickets issued for AC coaches shall be granted.",
+      "sources": ["REFUND RULES wef 12-Nov-15.pdf", "DOCUMENT ID: REFUND RULES wef 12-Nov-15_8"]
+    }
+  ],
+  "confidence": 0.95
+}
+```
+
+--------------------------------------------------------------------------------
+Question: Can I reschedule my ticket without cancellation charges?
+Expected: Answerable
+Answer JSON:
+[
+    {
+      "point": "No, you cannot.",
+      "sources": ["RefundRuleswef12-Nov-15_0"]
+    }
+  ]
+Confidence score: 0.9
+

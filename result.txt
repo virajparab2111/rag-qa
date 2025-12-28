@@ -1,0 +1,30 @@
+
+-----------------------------
+Q (Answerable): What is the refund period?
+Answer:
+C:\Users\Asus_owner\PycharmProjects\rag\rag.py:55: LangChainDeprecationWarning: The class `ChatOllama` was deprecated in LangChain 0.3.1 and will be rem
+oved in 1.0.0. An updated version of the class exists in the `langchain-ollama package and should be used instead. To use it run `pip install -U `langchain-ollama` and import as `from `langchain_ollama import ChatOllama``.
+  llm = ChatOllama(
+- The provided documents do not specify a refund period for company-initiated cancellations due to stock unavailability, pricing errors, or suspected fraudulent activity. Customers will receive a full refund in such cases.
+
+-----------------------------
+Q (Answerable): Do you ship internationally?
+Answer:
+- Yes, international shipping is available but only to certain countries.
+- The cost includes customs duties, taxes, and import fees which are borne by the customer.
+
+-----------------------------
+Q (Partially answerable): Can I cancel after shipping?
+Answer:
+- Orders cannot be canceled once they have been shipped; returns must follow the Refund Policy instead.
+
+-----------------------------
+Q (Unanswerable): Do you support crypto payments?
+Answer:
+The information is not available in the provided documents.
+
+-----------------------------
+Q (Answerable): What happens if delivery is delayed?
+Answer:
+- Contact customer support immediately.
+- Company bears no responsibility in such cases due to external factors like customs, natural disasters, or courier issues.
