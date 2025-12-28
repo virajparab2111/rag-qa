@@ -56,7 +56,7 @@ The system will:
 ## **🧱 Project Architecture**
 
 ```text
-rag-policy-qa/
+rag-qa/
 │
 ├── src/
 │   ├── data_loader.py     # Loads PDFs & text files with metadata
