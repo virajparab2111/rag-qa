@@ -17,7 +17,9 @@ The system supports **dense retrieval + reranking**, **source citations**, **ans
 
 ### **1️⃣ Install Python dependencies**
 
+````bash
 pip install -r requirements.txt
+````
 
 ### **2️⃣ Install Ollama**
 
@@ -27,17 +29,23 @@ Download and install Ollama from:
 
 Verify installation:
 
+````bash
 ollama --version
+````
 
 ### **3️⃣ Pull the Phi-3 Mini model**
 
-ollama pull phi3:mini
 
+````bash
+ollama pull phi3:mini
+````
 This downloads the LLM used for answering questions.
 
 ### **4️⃣ Run the RAG pipeline**
 
+````bash
 python rag.py
+````
 
 The system will:
 
@@ -47,6 +55,7 @@ The system will:
 
 ## **🧱 Project Architecture**
 
+{content: 
 rag-policy-qa/
 
 │
@@ -80,6 +89,7 @@ rag-policy-qa/
 ├── README.md # Project documentation
 
 └── .gitignore
+}
 
 ## **🔍 Retrieval & Answer Flow**
 
@@ -103,6 +113,7 @@ rag-policy-qa/
 
 ## **📤 Output Format (Guaranteed)**
 
+```json
 {
 
 "answer": \[
@@ -120,6 +131,7 @@ rag-policy-qa/
 "confidence": 0.95
 
 }
+```
 
 ## **⚠️ Notes**
 
