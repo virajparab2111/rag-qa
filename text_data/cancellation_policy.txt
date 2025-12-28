@@ -1,0 +1,20 @@
+Cancellation Policy
+
+Order cancellations are subject to the following terms:
+
+1. Cancellation Before Shipping
+- Orders may be canceled at no cost if the cancellation request is made before the order has been shipped.
+- Customers must submit the cancellation request through their account dashboard or by contacting customer support.
+
+2. Cancellation After Shipping
+- Once an order has been shipped, it cannot be canceled.
+- Customers may instead initiate a return after delivery, subject to the Refund Policy.
+
+3. Subscription Cancellations
+- Subscription-based services may be canceled at any time.
+- Cancellations take effect at the end of the current billing cycle.
+- No partial refunds are provided for unused subscription periods.
+
+4. Company-Initiated Cancellations
+- The company reserves the right to cancel orders due to stock unavailability, pricing errors, or suspected fraudulent activity.
+- In such cases, customers will receive a full refund.
