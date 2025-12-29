@@ -123,9 +123,11 @@ rag-qa/
 
 ## **📌 Future Improvements**
 
-- Web UI for document upload & querying
-- Dockerized deployment
+- Adding Chat Memory Buffer Feature
 - Advanced evaluation metrics (precision/recall)
+- Better Chunking size strategy using the following approach : <https://mallahyari.github.io/rag-ebook/04_advanced_rag.html#optimul-chunk-size-for-efficient-retrieval>
+- Add Logging and Dockerized deployment
+- Web UI for document upload & querying
 - Support for multi-language policies
 
 ## **📄 License**
